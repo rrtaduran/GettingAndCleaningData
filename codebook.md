@@ -17,3 +17,50 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
+Variables
+
+For each record in the dataset it is provided: 
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
+
+Identifiers
+SubjectID Subject identifier  (ranges from 1 to 30)
+
+ActivityID  6 activities (ranges from 1 to 6)
+    * WALKING
+    * WALKING_UPSTAIRS
+    * WALKING_DOWNSTAIRS
+    * SITTING
+    * STANDING
+    * LAYING
+
+561-FEATURE VECTOR WITH TIME AND FREQUENCY DOMAIN VARIABLES
+The measurements are classified in two domains:
+* Time-domain signals (variables prefixed by time), resulting from the capture of accelerometer and gyroscope raw signals.
+* Frequency-domain signals (variables prefixed by frequency), resulting from the application of a Fast Fourier Transform (FFT) to some of the time-domain signals.
+
+
+Sample Variables
+Time-domain signals
+* Average time-domain body acceleration in the X, Y and Z directions: timeBodyAccelerometer-Mean()-X/Y/Z
+* Standard deviation of the time-domain body acceleration in the X, Y and Z directions: timeBodyAccelerometer-SD()-X/Y/Z
+* Average time-domain gravity acceleration in the X, Y and Z directions: timeGravityAccelerometer-Mean()-X/Y/Z
+* Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions: timeGravityAccelerometer-SD()-X/Y/Z
+* Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions: timeBodyAccelerometerJerk-Mean()-X/Y/Z
+* Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions: timeBodyAccelerometerJerk-SD()-X/Y/Z
+* Average time-domain body angular velocity in the X, Y and Z directions: timeBodyGyroscope-Mean()-X/Y/Z
+
+
+Frequency-domain signals
+* Average time-domain body acceleration in the X, Y and Z directions: frequencyBodyAccelerometer-Mean()-X/Y/Z
+* Standard deviation of the time-domain body acceleration in the X, Y and Z directions: frequencyBodyAccelerometer-SD()-X/Y/Z
+* Average time-domain gravity acceleration in the X, Y and Z directions: frequencyGravityAccelerometer-Mean()-X/Y/Z
+* Standard deviation of the time-domain gravity acceleration in the X, Y and Z directions: frequencyGravityAccelerometer-SD()-X/Y/Z
+* Average time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions: frequencyBodyAccelerometerJerk-Mean()-X/Y/Z
+* Standard deviation of the time-domain body acceleration jerk (derivation of the acceleration in time) in the X, Y and Z directions: frequencyBodyAccelerometerJerk-SD()-X/Y/Z
+* Average time-domain body angular velocity in the X, Y and Z directions: frequencyBodyGyroscope-Mean()-X/Y/Z
+
+
