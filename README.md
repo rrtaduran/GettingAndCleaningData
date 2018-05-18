@@ -1,6 +1,6 @@
 ### Getting and Cleaning Data Project
 
-This is a repository for the submission of the course project for the Johns Hopkins Getting and Cleaning Data course.
+This repository hosts the R code and documentation files for the Data Science's track course "Getting and Cleaning data", available in coursera.
 
 ### Overview
 This project serves to demonstrate the collection and cleaning of a tidy data set that can be used for subsequent
